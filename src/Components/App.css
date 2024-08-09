@@ -1,0 +1,231 @@
+.body{
+  width: 100vw;
+  height:100vh;
+  background-color: aliceblue;
+}
+
+.App{
+  width: 100vw;
+  height:100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+  gap:20px;
+}
+
+#cardfb{
+  position: relative; 
+  width: 500px;
+  height: 284px;
+}
+
+
+@font-face {
+  font-family: card;
+  src: url(../Media/lineto-circular-pro-book.ttf);
+}
+@font-face {
+  font-family: portfolio;
+  src: url(../Media/MYRIADPRO-BOLDIT.OTF);
+}
+
+.Main{
+  width: 450px;
+  height: 284px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 2px 12px 2px grey;
+  background-image: url('../Media/card_bg.jpeg');
+  background-blend-mode: lighten;
+  mix-blend-mode: darken;
+  font-family: card;
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+  position: absolute; 
+  top: 0;
+  left: 0;
+  transition: transform 0.3s ease;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  border-radius: 15px;
+  opacity: 100%;
+}
+.footer{
+  width: 450px;
+  height: 50px;
+  background-color: transparent;
+  color:rgb(225, 225, 225);
+  margin:0;
+  position: absolute;
+  bottom:10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+p{
+  font-size: 16px;
+}
+
+p,  h4{
+  margin:0;
+}
+
+#dateobirth{
+  text-align: right;
+}
+
+.card-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.card-header #chip{
+  width:55px;
+  height: auto;
+  position: relative;
+  top:15px;
+  left:15px;
+  mix-blend-mode:unset;
+  opacity: 90%;
+}
+
+
+.card-header #portfolio{
+  font-size: 28px;
+  position: relative;
+  top:10px;
+  mix-blend-mode:unset;
+  font-family: portfolio;
+  color: whitesmoke;
+}
+
+.Middle_layer {
+  font-size:16px;
+  font-family: card;
+  margin: 0;
+  padding: 0;
+  color: rgb(235, 235, 235);
+  position: relative;
+  top:65px;
+}
+
+.back{
+  width: 450px;
+  height: 284px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 2px 12px 2px grey;
+  background-image: url('../Media/card_bg.jpeg');
+  background-position-x: right;
+  background-blend-mode: lighten;
+  mix-blend-mode: darken;
+  font-family: card;
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+  position: absolute; 
+  top: 0;
+  left: 0;
+}
+
+#media-icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#media-icons img{
+  width:15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+
+#resumepic{
+  width:30px;
+  height:30px;
+  padding-left: 10px;
+}
+#resumelink h3{
+  margin:0;
+  padding:0;
+  color:rgb(235, 235, 235);
+  font-size: 22px;
+  font-family: card;
+  text-decoration: none;
+}
+
+#resumelink{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top:10px;
+  text-decoration: none;
+}
+
+#rotate{
+  width:35px;
+  position: relative;
+  cursor: pointer;
+}
+
+
+
+
+
+.card-front {
+  transform: rotateY(0deg);
+  opacity: 1;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  opacity: 0;
+}
+
+.flipped {
+  transform: rotateY(180deg);
+  transition: transform 0.6s ease;
+  .card-front {
+    opacity: 0;
+  }
+  
+  .card-back {
+    opacity: 1;
+  }
+
+}
+
+#rotate {
+  margin-top: 20px;
+  width: 50px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+#rotate:hover {
+  transform: rotate(90deg);
+}
+
+#addr{
+  color:rgb(204, 204, 204);
+}
