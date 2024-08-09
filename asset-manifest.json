@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/card-portfolio/static/css/main.5428ac10.css",
+    "main.js": "/card-portfolio/static/js/main.dc359bf7.js",
+    "static/js/453.e1ff9bb7.chunk.js": "/card-portfolio/static/js/453.e1ff9bb7.chunk.js",
+    "static/media/DURGAPRASAD PILLI.pdf": "/card-portfolio/static/media/DURGAPRASAD PILLI.579dd3962250e25f06d0.pdf",
+    "static/media/card_bg.jpeg": "/card-portfolio/static/media/card_bg.6d8a73dbacb8217e54df.jpeg",
+    "static/media/MYRIADPRO-BOLDIT.OTF": "/card-portfolio/static/media/MYRIADPRO-BOLDIT.bc8a48d4181ff3e50565.OTF",
+    "static/media/qr.png": "/card-portfolio/static/media/qr.7e8a2fa6e85a6f1b71cf.png",
+    "static/media/lineto-circular-pro-book.ttf": "/card-portfolio/static/media/lineto-circular-pro-book.ae8f3870010ae155037b.ttf",
+    "static/media/resume.png": "/card-portfolio/static/media/resume.b36663291e9c984e53d4.png",
+    "static/media/instagram.svg": "/card-portfolio/static/media/instagram.d94e021fa430206cd590a0b48aa10712.svg",
+    "static/media/github-icon-2.svg": "/card-portfolio/static/media/github-icon-2.74d13353bde36d2dde5b52360f829273.svg",
+    "static/media/rotate.svg": "/card-portfolio/static/media/rotate.781f9e8eb71c82848aa46e5ee26b51d6.svg",
+    "static/media/linkedin.svg": "/card-portfolio/static/media/linkedin.ea7c4644fe3e34033bd1f6b18ee2a638.svg",
+    "index.html": "/card-portfolio/index.html",
+    "main.5428ac10.css.map": "/card-portfolio/static/css/main.5428ac10.css.map",
+    "main.dc359bf7.js.map": "/card-portfolio/static/js/main.dc359bf7.js.map",
+    "453.e1ff9bb7.chunk.js.map": "/card-portfolio/static/js/453.e1ff9bb7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5428ac10.css",
+    "static/js/main.dc359bf7.js"
+  ]
+}
