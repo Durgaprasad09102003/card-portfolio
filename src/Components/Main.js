@@ -9,7 +9,7 @@ export default function Main() {
       <div className="overlay"></div>
 
       <div className='card-header'>
-        <img src = {chip} alt='chip' id="chip"/>>
+        <img src = {chip} alt='chip' id="chip"/>
        <p id="portfolio"> PORTFOLIO</p>
       </div>
 
