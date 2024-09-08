@@ -13,7 +13,7 @@ function App() {
 
     return (
         <div className="App">
-            <div id="cardfb" className={`card ${isFlipped ? 'flipped' : ''}`}>
+            <div id="cardfb" className={`card ${isFlipped ? 'flipped' : 'reverse'}`}>
                 <div className="card-face card-front">
                     <Main />
                 </div>
